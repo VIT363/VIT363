@@ -1,18 +1,17 @@
 package org.example.springcourse;
 
-public class ClassicalMusic implements Music{
+import org.example.springcourse.Music;
+
+public class InstrumentalMusic implements Music {
 
 
     @Override
     public String get() {
         return null;
-
-
-
     }
 
     @Override
     public String getSong() {
-        return "Hungarian Rhapsody";
+        return "Romantic collection";
     }
 }
